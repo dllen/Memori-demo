@@ -9,7 +9,7 @@ ollama_provider = ProviderConfig.from_custom(
     base_url="http://localhost:11434/v1",
     api_key="ollama",  # Ollama doesn't require an API key, but OpenAI client needs something
     model=os.getenv(
-        "OLLAMA_MODEL", "llama3.2:3b"
+        "OLLAMA_MODEL", "gpt-oss:120b-cloud"
     ),  # Default to llama3.2:3b, can be overridden
 )
 
