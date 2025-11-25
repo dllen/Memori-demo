@@ -1,0 +1,33 @@
+# Memori Requirements
+# Python Version: 3.11+ (managed by pyenv)
+# PyPI Mirror: Tsinghua University (China)
+--index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+
+# Core Memori SDK
+memorisdk>=0.1.0
+
+# AI Provider SDKs
+openai>=1.0.0
+anthropic>=0.25.0
+litellm>=1.0.0
+
+# LangChain Components
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-openai>=0.0.5
+langchain-core>=0.1.0
+
+# Database Drivers
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0  # PostgreSQL
+pymysql>=1.1.0          # MySQL
+
+# Utilities
+python-dotenv>=1.0.0    # Environment variable management
+pydantic>=2.0.0         # Data validation
+requests>=2.31.0        # HTTP requests
+
+# Optional: Development Tools
+# pytest>=7.4.0         # Testing
+# black>=23.0.0         # Code formatting
+# mypy>=1.5.0           # Type checking

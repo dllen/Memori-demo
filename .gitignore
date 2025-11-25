@@ -57,6 +57,7 @@ deepseek_demo.db
 openai_memory.db
 claude_memory.db
 azure_memory.db
+langchain_ollama_demo.db
 
 # Logs
 *.log
